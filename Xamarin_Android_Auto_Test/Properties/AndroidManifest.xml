@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+          android:versionCode="1" 
+          android:versionName="1.0" 
+          package="Xamarin_Android_Auto_Test">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+  <application 
+    android:allowBackup="true" 
+    android:icon="@mipmap/ic_launcher" 
+    android:label="@string/app_name" 
+    android:roundIcon="@mipmap/ic_launcher_round" 
+    android:supportsRtl="true" 
+    android:theme="@style/AppTheme">
+    <meta-data
+              android:name="com.google.android.gms.car.application"
+              android:resource="@xml/automotive_app_desc" />
+  </application>
+</manifest>
