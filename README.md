@@ -11,3 +11,5 @@ What i learned is that, as i thought it is mandatory to:
       SetReadPendingIntent()
       SetReplyAction()
       
+# Screenshot
+![alt text](https://github.com/Verthosa/Xamarin_Android_Auto_Test/blob/master/xamarin_android_auto.png)
